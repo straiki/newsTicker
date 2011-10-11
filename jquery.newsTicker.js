@@ -1,6 +1,6 @@
 /**
  * Created by me for me ;)
- * User: Tomas Vahalik - tomas@vahalik.cz
+ * (c) Tomas Vahalik <tomas@vahalik.cz>
  * Date: 10/11/11
  * Time: 4:04 AM
  */
