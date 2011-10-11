@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="jquery.newsTicker.js"></script>
+    <style>
+        #example1 {width:600px;height:40px;background:#ddd;position:relative;}
+        #example1 ul#news1 {width:400px;height:40px;overflow:hidden;border:1px solid #666;}
+        #example1 li {width:100%;height:100%;line-height:20px;padding:10px;}
+        #example1-controls{width:150px;height:40px;position:absolute;right:0;top:0;border:1px solid red;}
+        #example1-controls a{width:15px;height:15px;background:red;display:block;margin:12px 2px;float:left;border:1px solid red;cursor:pointer;}
+        #example1-controls a:hover{border:1px solid black;}
+        #example1-controls a.active{background:darkgreen;border:1px solid black;}
+    </style>
+
+    <script>
+        jQuery(document).ready(function() {
+            jQuery("#example1").newsTicker({
+                controls: "#example1-controls",
+                label: "myRelId1",
+                speedOut: 500,
+                speedIn: 500,
+                pause: 5000,
+                mousePause: true
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div>
+    <div id="example1">
+        <ul id="news1">
+            <li>First new text</li>
+            <li>Second new text</li>
+            <li>Third new text</li>
+            <li>Fourth new text</li>
+            <li>Fifth new text</li>
+        </ul>
+        <div id="example1-controls"></div>
+    </div>
+
+</div>
+
+</body>
+</html>
