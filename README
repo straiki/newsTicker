@@ -5,7 +5,7 @@ newsTicker
 How to use it?
 ===============
 newsTicker is plugin for jQuery and the use is really easy. Look into index.html where
-is located "working" solution. It has no strict design, so it's up to you, how it will looks
+is located "working" solution. It has no strict design, so it's up to you, how it will look
 like.
 
 License
@@ -35,3 +35,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 The views and conclusions contained in the software and documentation are those of the
 authors and should not be interpreted as representing official policies, either expressed
 or implied, of Tomas Vahalik.
+
+Thanks
+===============
+for Inspiration and suggestion to Tomas Jorpalidis <jerrx1@gmail.com> ;)
